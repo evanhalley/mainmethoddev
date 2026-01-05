@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MainMethod.dev",
+  title: "Main Method",
   description: "We build web and mobile products for niche groups and audiences.",
 };
 

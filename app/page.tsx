@@ -9,7 +9,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start max-w-2xl w-full text-center sm:text-left">
         <div className="space-y-4">
           <h1 className="text-4xl sm:text-6xl font-bold tracking-tighter text-foreground">
-            MainMethod.dev
+            Main Method
           </h1>
           <p className="text-xl text-muted-foreground font-light leading-relaxed">
             We build <span className="text-foreground font-medium">web</span> and{" "}
