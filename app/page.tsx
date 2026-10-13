@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Logo } from "@/components/logo";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 
@@ -8,7 +9,8 @@ export default function Home() {
     <div className="min-h-screen bg-background flex flex-col items-center justify-center p-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start max-w-2xl w-full text-center sm:text-left">
         <div className="space-y-4">
-          <h1 className="text-4xl sm:text-6xl font-bold tracking-tighter text-foreground">
+          <h1 className="flex items-center justify-center sm:justify-start gap-[0.25em] text-4xl sm:text-6xl font-bold tracking-tighter text-foreground">
+            <Logo className="h-[0.76em] w-auto" />
             Main Method
           </h1>
           <p className="text-xl text-muted-foreground font-light leading-relaxed">
