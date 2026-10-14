@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { LogoLetter } from "@/components/logo";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 
@@ -9,7 +10,11 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start max-w-2xl w-full text-center sm:text-left">
         <div className="space-y-4">
           <h1 className="text-4xl sm:text-6xl font-bold tracking-tighter text-foreground">
-            Main Method
+            <span className="sr-only">Main Method</span>
+            <span aria-hidden="true">
+              <LogoLetter />
+              ain Method
+            </span>
           </h1>
           <p className="text-xl text-muted-foreground font-light leading-relaxed">
             We build <span className="text-foreground font-medium">web</span> and{" "}
